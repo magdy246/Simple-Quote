@@ -63,7 +63,7 @@ button:hover {
 
 #newQuote img {
     position: absolute;
-    top: -35%;
+    bottom: 105%;
     right: 50%;
     transform: translate(50%, 50%);
     width: 6.25rem;
@@ -75,10 +75,10 @@ button:hover {
 @media (max-width : 640px) {
     .main-border {
         width: 90%;
-        height: 55%;
+        height: 52%;
     }
 
     #newQuote p {
-        width: 330px;
+        width: auto;
     }
 }

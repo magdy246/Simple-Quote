@@ -19,6 +19,11 @@ body {
     background-size: cover;
 }
 
+::selection
+{
+    background-color: #3d2a1c;
+}
+
 .main-border {
     background-color: #0009;
     box-shadow: 0px 10px 35px -3px #fff;

@@ -1,3 +1,4 @@
+var newQuotes;
 function addQuote() {
   var allQuotes = [
     /*======= Frist Author ========= */
@@ -67,6 +68,10 @@ function addQuote() {
   ];
 
   var quoteNumber = Math.floor(Math.random() * allQuotes.length);
+  while (newQuotes == quoteNumber) {
+    quoteNumber = Math.floor(Math.random() * allQuotes.length);
+  }
+  newQuotes = quoteNumber;
   var Quout = allQuotes[quoteNumber];
 
   document.getElementById("newQuote").innerHTML = Quout;
